@@ -7,8 +7,7 @@ require("dotenv").config();
 const url =
   "http://openapi.airport.co.kr/service/rest/AirportCodeList/getAirportCodeList";
 const SERVICE_KEY = process.env.SERVICE_KEY;
-// const SERVICE_KEY =
-//   "Q7%2FpRWuKhwwSm%2Bkd7%2FlVUkpaH0zYa5VVbX0zR5bXllnufFZ%2BOFRNyAfIFhLCMP%2F7GjssVtnxYXAEAOstIrbANg%3D%3D";
+
 var queryParams = `?serviceKey=${SERVICE_KEY}&pageNo=1schDate=2022-05-09`;
 
 queryParams +=
